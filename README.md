@@ -7,8 +7,8 @@ Wave19 - Grupo 05 - Martin Riani Tonna
 
 - [1. Levantar el servicio](#1-Levantar-el-servicio)
 - [2. Base de datos y datos](#2-Base-de-datos-y-datos)
-    - [2.1. H2](##2.1-H2)
-    - [2.2. MySQL](##2.2-MySQL)
+    - [2.1. H2](#21-H2)
+    - [2.2. MySQL](#22-MySQL)
 - [3. Interactuar con el servicio ](#3-Interactuar-con-el-servicio)
     - [3.1. US01. Ingresar lote en warehouse de fulfillment](##3.1.-US01.-Ingresar-lote-en-warehouse-de-fulfillment)
     - [3.2. US02. Registrar Venta: Agregar producto al carrito de compras](#3.2.-US02.-Registrar-Venta:-Agregar-producto-al-carrito-de-compras)
@@ -17,8 +17,8 @@ Wave19 - Grupo 05 - Martin Riani Tonna
     - [3.5. US05. Consultar fecha de vencimiento por lote](#3.5.-US05.-Consultar-fecha-de-vencimiento-por-lote)
     - [3.6. US06. Gestionar el alta, baja, modificación y eliminación de un producto](#3.6.-US06.-Gestionar-el-alta,-baja,-modificación-y-eliminación-de-un-producto)
 
-- [4. UML](#1-UML)
-- [5. DER](#1-DER)
+- [4. UML](#4-UML)
+- [5. DER](#5-DER)
 
 ## 1 Levantar el servicio
 
