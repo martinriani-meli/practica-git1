@@ -117,8 +117,8 @@ A continuación un listado de los usuarios disponibles y sus roles:
 | ADMIN    | user_admin_test             | 123456    | 
 | CUSTOMER | user_customer_test          | 123456    |
 | OPERATOR | user_operator_test          | 123456    | 
-| SELLER 1 | user_customer_test_seller_1 | 123456    | 
-| SELLER 2 | user_customer_test_seller_2 | 123456    | 
+| CUSTOMER | user_customer_test_seller_1 | 123456    | 
+| CUSTOMER | user_customer_test_seller_2 | 123456    | 
 
 
 Una vez obtenido el token de la misma manera que se hizo para
