@@ -16,7 +16,6 @@ Wave19 - Grupo 05 - Martin Riani Tonna
     - [3.4. US04. Consultar el stock de un producto en todos los warehouses](#34-US04-Consultar-el-stock-de-un-producto-en-todos-los-warehouses)
     - [3.5. US05. Consultar fecha de vencimiento por lote](#35-US05-Consultar-fecha-de-vencimiento-por-lote)
     - [3.6. US06. Gestionar el alta, baja, modificación y eliminación de un producto](#36-US06-Gestionar-el-alta-baja-modificación-y-eliminación-de-un-producto)
-
 - [4. UML](#4-UML)
 - [5. DER](#5-DER)
 
@@ -136,6 +135,8 @@ se setean como variable de entorno global en {{token}}, y luego en cada llamada 
 
 ![TokenPostmanVar.png](docs/img/TokenPostmanVar.png)
 
+---
+
 ### 3.1. US01. Ingresar lote en warehouse de fulfillment
 
 #### 3.1.1 Crear Inbound Order
@@ -220,7 +221,7 @@ se setean como variable de entorno global en {{token}}, y luego en cada llamada 
   ]
 }
 ```
-
+---
 
 ### 3.2. US02. Registrar Venta - Agregar producto al carrito de compras
 
@@ -321,6 +322,8 @@ se setean como variable de entorno global en {{token}}, y luego en cada llamada 
 
 * **Tipo de usuario requerido:** `CUSTOMER`
 
+---
+
 ### 3.3. US03. Consultar ubicación de un producto en el warehouse
 
 * **Función:** Permite obtener todos los batches de determinado producto presentes en el warehouse al que pertenece el representante que hace la consulta
@@ -347,6 +350,7 @@ se setean como variable de entorno global en {{token}}, y luego en cada llamada 
 
 orderType(L|C|F) es opcional, si no se indica por deafult se aplica L.
 
+---
 
 ### 3.4. US04. Consultar el stock de un producto en todos los warehouses
 
@@ -360,8 +364,9 @@ orderType(L|C|F) es opcional, si no se indica por deafult se aplica L.
 
 * **Tipo de usuario requerido:** `MANAGER`
 
-### 3.5. US05. Consultar fecha de vencimiento por lote
+---
 
+### 3.5. US05. Consultar fecha de vencimiento por lote
 
 #### 3.5.1 Consultar próximos a vencer
 
@@ -384,10 +389,11 @@ orderType(L|C|F) es opcional, si no se indica por deafult se aplica L.
 * **Url:**
 
 `http://localhost:8080/api/v1/fresh-products/batch/list/due-date/{cantDays}?category={FS, RF, FF}&
-order={date_asc, date_desc}
-`
+order={date_asc, date_desc}`
 
 Tanto order(date_asc|date_desc) como category(FS|RF|FF) son opcionales.
+
+---
 
 ### 3.6. US06. Gestionar el alta, baja, modificación y eliminación de un producto
 
